@@ -284,6 +284,7 @@ public void scrollEndJS(){
     js.executeScript("arguments[0].setAttribute('value','"+metin+"')",element);
 
 }
+//
 //   input elementindeki degerleri al
 //   Belirli bir WebElement'in id değerini String olarak alır ve value attribute değerini String olarak döndürür
 //    return
