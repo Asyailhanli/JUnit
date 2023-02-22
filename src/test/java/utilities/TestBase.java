@@ -291,7 +291,7 @@ public void scrollEndJS(){
 //    document.-->HTML E GIT
 //    getElementById('"+ idOfElement+"').-->ID SI VERILEN ELEMENT BUL
 //    value").-->
-//    toString()
+//    toString()...
     public void getValueByJS(String idOfElement){
         JavascriptExecutor js = (JavascriptExecutor)driver;
         String metin=js.executeScript("return document.getElementById('"+ idOfElement+"').value").toString();
